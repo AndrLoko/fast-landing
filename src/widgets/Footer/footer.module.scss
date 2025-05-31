@@ -1,0 +1,96 @@
+#footerr {
+  padding-block: 30px;
+  .footerMain {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    .footerSubscribe {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .inputCart {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        input {
+          width: 340px;
+          height: 45px;
+          background: #fff;
+          border: 1px solid rgba(209, 213, 219, 1);
+          border-radius: 6px;
+          color: #000;
+          padding-left: 10px;
+
+          &::placeholder {
+            padding-left: 10px;
+            color: rgba(122, 126, 146, 1);
+          }
+        }
+        button {
+          width: 115px;
+          height: 45px;
+          background: rgba(179, 126, 255, 1);
+          border: none;
+          border-radius: 6px;
+          color: #fff;
+          font-size: 16px;
+          font-weight: 400;
+        }
+      }
+    }
+    .footerContent {
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+      gap: 50px;
+      flex-wrap: wrap;
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        li {
+          &:first-child {
+            font-size: 16px;
+            font-weight: 600;
+            color: rgba(107, 114, 128, 1);
+          }
+          cursor: pointer;
+          font-size: 14px;
+          font-weight: 400;
+          color: rgba(17, 24, 39, 1);
+        }
+      }
+    }
+    .footerLine {
+      width: 100%;
+      background: rgba(229, 231, 235, 1);
+      height: 1px;
+    }
+    .footerContact {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+      flex-wrap: wrap;
+      p {
+        color: rgba(107, 114, 128, 1);
+        font-size: 14px;
+        font-weight: 400;
+      }
+      div {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        h1 {
+          width: 35px;
+          height: 35px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border: 1px solid rgba(107, 114, 128, 1);
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+}
