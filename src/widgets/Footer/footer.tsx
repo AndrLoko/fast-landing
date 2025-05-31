@@ -1,6 +1,5 @@
 import React from "react";
 import scss from "./footer.module.scss";
-import { FaArrowRight } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
@@ -65,10 +64,14 @@ const Footer: React.FC = () => {
       <div className="container">
         <div className={scss.footerMain}>
           <div className={scss.footerSubscribe}>
-            <img src="./assets/logo.svg" alt="logo" />
+            <img className={scss.logo} src="/logo.svg" alt="" />
             <div className={scss.inputCart}>
-              <input type="email" placeholder="Email address" />
-              <button>Subscribe</button>
+              <input
+                className={scss.input}
+                type="email"
+                placeholder="Email address"
+              />
+              <button className={scss.button}>Subscribe</button>
             </div>
           </div>
           <div className={scss.footerLine}></div>
