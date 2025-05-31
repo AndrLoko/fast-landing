@@ -1,7 +1,11 @@
+import Navigation from "@/widgets/Navigation/navigation";
+
 export default function Home() {
   return (
-    <div>
-
-    </div>
+    <header>
+      <div className="container">
+        <Navigation />
+      </div>
+    </header>
   );
 }
