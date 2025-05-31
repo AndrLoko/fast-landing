@@ -1,0 +1,164 @@
+.contactInformation {
+  @media (max-width: 800px) {
+    display: none;
+  }
+  .content {
+    display: flex;
+    align-items: start;
+    gap: 70px;
+    .listContent {
+      max-width: 490px;
+      width: 100%;
+      height: 648px;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      padding: 40px;
+      gap: 120px;
+      background: rgba(179, 126, 255, 1);
+      position: relative;
+      .listTitle {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        h1 {
+          font-size: 27px;
+          font-weight: 400;
+          color: #fff;
+        }
+        p {
+          font-size: 18px;
+          font-weight: 400;
+          color: #fff;
+        }
+      }
+      .listText {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        div {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          p {
+            max-width: 300px;
+            width: 100%;
+            font-size: 16px;
+            font-weight: 400;
+            color: #fff;
+          }
+        }
+      }
+      .circleBox1 {
+        position: absolute;
+        bottom: -56px;
+        right: -56px;
+        width: 269px;
+        height: 269px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.12);
+      }
+      .circleBox2 {
+        position: absolute;
+        bottom: 100px;
+        right: 100px;
+        width: 138px;
+        height: 138px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.12);
+      }
+    }
+    .listData {
+      margin-top: 70px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      .inputData {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 40px;
+        div {
+          display: flex;
+          flex-direction: column;
+          p {
+            font-size: 16px;
+            font-weight: 400;
+            color: rgba(141, 141, 141, 1);
+          }
+          input {
+            width: 270px;
+            height: 30px;
+            border: none;
+            border-bottom: 1px solid rgba(141, 141, 141, 1);
+            &:focus {
+              outline: none;
+            }
+          }
+        }
+      }
+      .selectTarget {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .selectTitle {
+          p {
+            font-size: 16px;
+            font-weight: 400;
+            color: rgba(1, 28, 42, 1);
+          }
+        }
+        .selectData {
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;
+          gap: 30px;
+          div {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            p {
+              font-size: 16px;
+              font-weight: 400;
+              color: rgba(1, 28, 42, 1);
+            }
+          }
+        }
+      }
+      .message {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        p {
+          font-size: 16px;
+          font-weight: 400;
+          color: rgba(141, 141, 141, 1);
+        }
+        input {
+          width: 100%;
+          height: 30px;
+          border: none;
+          border-bottom: 1px solid rgba(141, 141, 141, 1);
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+      .sendMessage {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        button {
+          width: 200px;
+          height: 50px;
+          border: none;
+          border-radius: 10px;
+          background: linear-gradient(269.99deg, #9852fc 0.01%, #caa5ff 99.99%);
+          color: #fff;
+          font-size: 16px;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
