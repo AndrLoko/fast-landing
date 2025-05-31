@@ -3,7 +3,7 @@ import style from './navigation.module.scss'
 
 const navigation = () => {
     return (
-        <div className={style.navigation}>
+        <div className={`${style.navigation} ${style.container}`}>
             <div className={style.logo}>
                 <img src="/logo.png" alt="" className={style.logoImage} />
                 <h2 className={style.logoText}>CutLine</h2>
