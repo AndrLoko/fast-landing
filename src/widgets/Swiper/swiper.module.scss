@@ -1,0 +1,88 @@
+/* swiper.module.scss */
+.wrapper {
+  padding: 2rem;
+  width: 100%;
+}
+
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.06);
+  text-align: left;
+  margin-bottom: 71px;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.cardBody {
+  margin-left: 20px;
+  margin-bottom: 38px;
+}
+
+.title {
+  color: #B37EFF;
+  font-size: 25px;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+
+.subtitle {
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.desc {
+  font-size: 17px;
+  height: 74px;
+  width: 265px;
+  margin-bottom: 35px;
+}
+
+.link {
+  color: #9d70f9;
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+.progressbar {
+  width: 583px;
+  margin: 0 auto;
+  height: 6px;
+  background: #F2ECFB;
+  border-radius: 9999px;
+  overflow: hidden;
+
+  .swiper-pagination-progressbar-fill {
+    background: #9d70f9;
+    height: 100%;
+    border-radius: 9999px;
+    transition: width 0.3s ease;
+  }
+}
+
+
+  .swiper-pagination-progressbar {
+    position: relative;
+    height: 6px;
+    margin-top: 24px;
+    background: rgba(157, 112, 249, 0.1);
+    border-radius: 9999px;
+    overflow: hidden;
+  }
+
+  .swiper-pagination-progressbar-fill {
+    background: #9d70f9;
+    height: 100%;
+    border-radius: 9999px;
+    transition: width 0.3s ease;
+  }

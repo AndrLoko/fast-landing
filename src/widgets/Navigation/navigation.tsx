@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './navigation.module.scss'
 
-const navigation = () => {
+const Navigation = () => {
     return (
         <div className={`${style.navigation} ${style.container}`}>
             <div className={style.logo}>
@@ -20,4 +20,4 @@ const navigation = () => {
     );
 };
 
-export default navigation;
+export default Navigation;
